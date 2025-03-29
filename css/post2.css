@@ -3134,4 +3134,14 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     padding: 0;
     height: 400px
 }
+
+@media screen and (min-width: 1199.98px) {
+    .shop_products-list_item {
+        margin-bottom: 30px;
+    }
+    
+    .shop_products-list_item .media {
+        height: 280px;
+    }
+}
 /*# sourceMappingURL=../sourcemaps/post2.css.map */
