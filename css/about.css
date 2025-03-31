@@ -1,14 +1,9 @@
 /**
- * Herbalist
- * Herbalist – is a website template created for selling the cannabis, medical marijuana and CBD products, cannabis blogging and others
- * Exclusively on https://1.envato.market/herbalist-html
+ * Vayu Naturals
+ * Website for Vayu Naturals - Natural Mint Oils, Essential Oils, and Botanical Extracts
  *
  * @encoding        UTF-8
- * @version         1.0.4
- * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
- * @license         Envato License https://1.envato.market/KYbje
- * @contributors    Lamber Lilit (winter.rituel@gmail.com)
- * @support         help@merkulov.design
+ * @version         1.0.0
  **/
 * {
     margin: 0;
@@ -1662,6 +1657,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     line-height: 22px
 }
 
+
+
 @media screen and (min-width:575.98px) {
     .guide_media {
         margin-top: 0
@@ -2977,4 +2974,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
         margin-top: 60px
     }
 }
+
+
+
 /*# sourceMappingURL=../sourcemaps/about.css.map */

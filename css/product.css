@@ -1434,7 +1434,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        border-bottom: 1px solid #9ebca6
+        /* border-bottom: 1px solid #9ebca6 */
     }
 
     .about_secondary-content_nav .nav-item {
