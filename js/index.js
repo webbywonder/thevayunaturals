@@ -111,6 +111,30 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     drawAccordion();
+
+    // Handle submenu on mobile devices
+    const submenuItems = document.querySelectorAll('.dropdown-submenu > a');
+    
+    submenuItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            // Only prevent default if on mobile/tablet
+            if (window.innerWidth < 992) {
+                e.preventDefault();
+                const submenu = this.nextElementSibling;
+                
+                // Toggle the submenu
+                if (submenu.style.display === 'block') {
+                    submenu.style.display = 'none';
+                } else {
+                    // Close all other open submenus first
+                    document.querySelectorAll('.dropdown-submenu .dropdown-submenu').forEach(menu => {
+                        if (menu !== submenu) menu.style.display = 'none';
+                    });
+                    submenu.style.display = 'block';
+                }
+            }
+        });
+    });
 })
 
 
