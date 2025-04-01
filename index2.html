@@ -5,16 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Home | Herbalist</title>
-        <link rel="stylesheet preload" as="style" href="css/preload.css" />
-        <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
-        <link rel="stylesheet preload" as="style" href="css/libs.css" />
+        <link rel="stylesheet preload" as="style" href="/css/preload.css" />
+        <link rel="stylesheet preload" as="style" href="/css/icomoon.css" />
+        <link rel="stylesheet preload" as="style" href="/css/libs.css" />
 
         <link rel="stylesheet" href="css/index2.css" />
     </head>
     <body>
         <header class="header d-flex flex-wrap align-items-center" data-page="home2" data-overlay="true">
             <div class="container d-flex flex-wrap flex-xl-nowrap align-items-center justify-content-between">
-                <a class="brand header_logo d-flex align-items-center" href="index.html">
+                <a class="brand header_logo d-flex align-items-center" href="/">
                     <span class="logo">
                         <svg width="48" height="45" viewBox="0 0 48 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#logoHeader)">
@@ -87,7 +87,7 @@
                             <div class="dropdown-menu collapse" id="homeMenu">
                                 <ul class="dropdown-list">
                                     <li class="list-item nav-item" data-page="home">
-                                        <a class="dropdown-item" href="index.html">Home 01</a>
+                                        <a class="dropdown-item" href="/">Home 01</a>
                                     </li>
                                     <li class="list-item nav-item" data-page="home2">
                                         <a class="dropdown-item" href="index2.html">Home 02</a>
@@ -171,7 +171,7 @@
                             <div class="dropdown-menu collapse" id="pagesMenu">
                                 <ul class="dropdown-list">
                                     <li class="list-item nav-item" data-page="about">
-                                        <a class="dropdown-item" href="about.html">About</a>
+                                        <a class="dropdown-item" href="/about.html">About</a>
                                     </li>
                                     <li class="list-item nav-item" data-page="team">
                                         <a class="dropdown-item" href="team.html">Team</a>
@@ -180,7 +180,7 @@
                                         <a class="dropdown-item" href="faq.html">FAQ</a>
                                     </li>
                                     <li class="list-item nav-item" data-page="contacts">
-                                        <a class="dropdown-item" href="contacts.html">Contacts 01</a>
+                                        <a class="dropdown-item" href="/contact-us.html">Contacts 01</a>
                                     </li>
                                     <li class="list-item nav-item" data-page="contacts2">
                                         <a class="dropdown-item" href="contacts2.html">Contacts 02</a>
@@ -2000,7 +2000,7 @@
             <div class="footer_main section">
                 <div class="container d-flex flex-column flex-md-row flex-wrap flex-xl-nowrap justify-content-xl-between">
                     <div class="footer_main-about footer_main-block col-md-6 col-xl-auto">
-                        <a class="brand footer_main-about_brand d-flex align-items-center" href="index.html">
+                        <a class="brand footer_main-about_brand d-flex align-items-center" href="/">
                             <span class="logo">
                                 <svg width="48" height="45" viewBox="0 0 48 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#logoFooter)">
@@ -2364,108 +2364,8 @@
                 </div>
             </div>
         </footer>
-        <script src="js/common.min.js"></script>
-        <div class="cartOffcanvas offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
-            <div class="cartOffcanvas_header d-flex align-items-center justify-content-between">
-                <h2 class="cartOffcanvas_header-title" id="cartOffcanvasLabel">Cart</h2>
-                <button class="cartOffcanvas_header-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                    <i class="icon-close"></i>
-                </button>
-            </div>
-            <div class="cartOffcanvas_body">
-                <ul class="cartOffcanvas_body-list">
-                    <li class="cartOffcanvas_body-list_item d-sm-flex align-items-center">
-                        <div class="media">
-                            <a href="product.html" target="_blank" rel="noopener norefferer">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
-                                </picture>
-                            </a>
-                        </div>
-                        <div class="main d-flex flex-wrap justify-content-between align-items-end align-items-lg-center">
-                            <a class="main_title" href="product.html" target="_blank" rel="noopener norefferer">
-                                <span class="main_title-product"> Jonny Chronic - French Macaroon </span>
-                            </a>
-                            <div class="main_price">
-                                <span class="price">$14.98</span>
-                            </div>
-                            <div class="qty d-flex align-items-center justify-content-between">
-                                <span class="qty_minus control disabled d-flex align-items-center">
-                                    <i class="icon-minus"></i>
-                                </span>
-                                <input class="qty_amount" type="number" readonly value="1" min="1" max="99" />
-                                <span class="qty_plus control d-flex align-items-center">
-                                    <i class="icon-plus"></i>
-                                </span>
-                            </div>
-                            <a class="btn--underline" href="#">Remove</a>
-                        </div>
-                    </li>
-                    <li class="cartOffcanvas_body-list_item d-sm-flex align-items-center">
-                        <div class="media">
-                            <a href="product.html" target="_blank" rel="noopener norefferer">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
-                                </picture>
-                            </a>
-                        </div>
-                        <div class="main d-flex flex-wrap justify-content-between align-items-end align-items-lg-center">
-                            <a class="main_title" href="product.html" target="_blank" rel="noopener norefferer">
-                                <span class="main_title-product"> House Shatter – Durban Poison </span>
-                            </a>
-                            <div class="main_price">
-                                <span class="price">$6.96</span>
-                            </div>
-                            <div class="qty d-flex align-items-center justify-content-between">
-                                <span class="qty_minus control disabled d-flex align-items-center">
-                                    <i class="icon-minus"></i>
-                                </span>
-                                <input class="qty_amount" type="number" readonly value="1" min="1" max="99" />
-                                <span class="qty_plus control d-flex align-items-center">
-                                    <i class="icon-plus"></i>
-                                </span>
-                            </div>
-                            <a class="btn--underline" href="#">Remove</a>
-                        </div>
-                    </li>
-                    <li class="cartOffcanvas_body-list_item d-sm-flex align-items-center">
-                        <div class="media">
-                            <a href="product.html" target="_blank" rel="noopener norefferer">
-                                <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
-                                </picture>
-                            </a>
-                        </div>
-                        <div class="main d-flex flex-wrap justify-content-between align-items-end align-items-lg-center">
-                            <a class="main_title" href="product.html" target="_blank" rel="noopener norefferer">
-                                <span class="main_title-product"> Natures: CBD Tincture </span>
-                            </a>
-                            <div class="main_price">
-                                <span class="price">$7.49</span>
-                            </div>
-                            <div class="qty d-flex align-items-center justify-content-between">
-                                <span class="qty_minus control disabled d-flex align-items-center">
-                                    <i class="icon-minus"></i>
-                                </span>
-                                <input class="qty_amount" type="number" readonly value="1" min="1" max="99" />
-                                <span class="qty_plus control d-flex align-items-center">
-                                    <i class="icon-plus"></i>
-                                </span>
-                            </div>
-                            <a class="btn--underline" href="#">Remove</a>
-                        </div>
-                    </li>
-                </ul>
-                <div class="cartOffcanvas_body-total d-flex justify-content-between align-items-center">
-                    <span>Total</span>
-                    <span class="cartTotal">$29.43</span>
-                </div>
-                <a class="cartOffcanvas_body-btn btn" href="cart.html">Proceed to checkout</a>
-            </div>
-        </div>
+        <script src="/js/common.min.js"></script>
+        
         <script src="js/index.min.js"></script>
     </body>
 </html>
