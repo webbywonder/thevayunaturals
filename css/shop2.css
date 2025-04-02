@@ -3197,4 +3197,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
         margin-top: 60px
     }
 }
+
+.logo-img {
+    filter: brightness(0) invert(1);
+}
 /*# sourceMappingURL=../sourcemaps/shop2.css.map */

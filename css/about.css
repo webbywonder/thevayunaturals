@@ -476,7 +476,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 
 @media screen and (min-width:991.98px) {
     .section {
-        padding: 160px 0
+        padding: 70px 0
     }
 
     .section--nopb {
@@ -2974,6 +2974,71 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
         margin-top: 60px
     }
 }
+
+.logo-img {
+    filter: brightness(0) invert(1);
+}
+
+
+/* General Section Styling */
+.about_vision-header,
+.about_quality-header,
+.about_products-header,
+.about_why-header {
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2c3e50; /* Deep navy shade for elegance */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about_vision-text,
+.about_quality-text,
+.about_products-text {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Bullet Point Enhancements */
+.about_products-list .list-item::before,
+.about_why-list .list-item::before {
+    content: "✔"; 
+    color: #27ae60;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+
+/* Title Styling for Why Choose List */
+.about_why-list .list-item .title {
+    font-weight: 700;
+    color: #1a5276;
+}
+
+/* Center Text for a Clean Look */
+.text-center {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about_vision-header,
+    .about_quality-header,
+    .about_products-header,
+    .about_why-header {
+        font-size: 1.8rem;
+    }
+    .about_vision-text,
+    .about_quality-text,
+    .about_products-text {
+        font-size: 1rem;
+    }
+}
+
 
 
 

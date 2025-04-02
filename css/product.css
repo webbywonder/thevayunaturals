@@ -2865,4 +2865,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     color: #555;
     line-height: 1.6;
 }
+
+.logo-img {
+    filter: brightness(0) invert(1);
+}
 /*# sourceMappingURL=../sourcemaps/product.css.map */

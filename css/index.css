@@ -3686,6 +3686,9 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 
+.logo-img {
+    filter: brightness(0) invert(1);
+}
 
 
 /*# sourceMappingURL=../sourcemaps/index.css.map */
