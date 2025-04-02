@@ -939,8 +939,10 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     margin-bottom: 40px
 }
 
-.about_main-slider {
-    margin-bottom: 30px
+
+
+.about_main-slider img {
+    width: 100%;
 }
 
 .about_main-slider--single .swiper-slide,.about_main-slider--thumbs .swiper-slide {
@@ -2870,17 +2872,5 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     filter: brightness(0) invert(1);
 }
 
-.logo {
-    display: none;
-    /* width: %; */
-    -o-object-fit: cover;
-    object-fit: cover
-}
 
-/* Show logo image again on screens larger than 575.98px */
-@media screen and (min-width:575.98px) {
-.logo {
-    display: block;
-}
-}
 /*# sourceMappingURL=../sourcemaps/product.css.map */
