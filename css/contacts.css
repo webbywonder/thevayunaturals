@@ -2147,4 +2147,18 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 .logo-img {
     filter: brightness(0) invert(1);
 }
+
+.logo {
+    display: none;
+    /* width: %; */
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+/* Show logo image again on screens larger than 575.98px */
+@media screen and (min-width:575.98px) {
+.logo {
+    display: block;
+}
+}
 /*# sourceMappingURL=../sourcemaps/contacts.css.map */

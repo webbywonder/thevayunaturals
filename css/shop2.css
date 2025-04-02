@@ -1051,7 +1051,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 /* Fix for images to maintain aspect ratio */
 .products_list-item_wrapper .media img {
     width: 100%;
-    height: 220px; /* Fixed height for all product images */
+    height: 270px; /* Fixed height for all product images */
     object-fit: cover;
 }
 
