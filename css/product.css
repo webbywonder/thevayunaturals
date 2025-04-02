@@ -56,7 +56,7 @@ textarea {
 
 img {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     -o-object-fit: cover;
     object-fit: cover
 }
@@ -2805,5 +2805,64 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
         font-size: 28px;
         margin-top: 60px
     }
+}
+
+/* Add this to your product.css file or create a new style block in the head */
+.organic-products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.organic-products-table th,
+.organic-products-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.organic-products-table th {
+    background-color: #214842;
+    color: white;
+    font-weight: 500;
+}
+
+.organic-products-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.organic-products-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.request-btn {
+    background-color: #EFC368;
+    color: #214842;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.request-btn:hover {
+    background-color: #214842;
+    color: white;
+}
+
+.organic-products-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.organic-description {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #555;
+    line-height: 1.6;
 }
 /*# sourceMappingURL=../sourcemaps/product.css.map */
