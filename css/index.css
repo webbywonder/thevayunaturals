@@ -971,7 +971,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     width: 10000px;
     height: 10000px;
     margin: 0 -1000px;
-    background: #214842;
+   
     left: 0
 }
 
@@ -3708,6 +3708,11 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 .main-page-image {
+    width: 100%;
+    height: auto;
+}
+
+.category_section {
     width: 150%;
     height: auto;
 }

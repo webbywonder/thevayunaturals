@@ -1055,6 +1055,12 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     object-fit: cover;
 }
 
+.products_list-item_wrapper .media img.portrait {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .products_list-item_wrapper:hover {
     -webkit-box-shadow: 0 0 20px rgba(37,143,103,.15);
     box-shadow: 0 0 20px rgba(37,143,103,.15)
@@ -3201,4 +3207,6 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 .logo-img {
     filter: brightness(0) invert(1);
 }
+
+
 /*# sourceMappingURL=../sourcemaps/shop2.css.map */
