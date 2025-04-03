@@ -3707,5 +3707,9 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     }
 }
 
+.main-page-image {
+    width: 150%;
+    height: auto;
+}
 
 /*# sourceMappingURL=../sourcemaps/index.css.map */

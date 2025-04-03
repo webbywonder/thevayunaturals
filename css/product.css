@@ -945,6 +945,12 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     width: 100%;
 }
 
+.about_main-slider img.portrait {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .about_main-slider--single .swiper-slide,.about_main-slider--thumbs .swiper-slide {
     border-radius: 16px;
     overflow: hidden
@@ -2871,6 +2877,9 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 .logo-img {
     filter: brightness(0) invert(1);
 }
+
+
+
 
 
 /*# sourceMappingURL=../sourcemaps/product.css.map */
