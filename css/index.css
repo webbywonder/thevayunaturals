@@ -607,7 +607,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     line-height: 1.3
 }
 
-.header_nav .nav-item.active,.header_nav .nav-item:hover {
+.header_nav .nav-item.active,.header_nav .nav-item:hover > a {
     color: #258f67
 }
 

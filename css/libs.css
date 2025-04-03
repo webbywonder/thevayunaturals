@@ -7989,39 +7989,64 @@
     align-self: start;
     justify-self: end
 }
-/*# sourceMappingURL=../sourcemaps/libs.css.map */
-
 
 /* Submenu styling */
 .dropdown-submenu {
     position: relative;
-
 }
 
 .dropdown-submenu .dropdown-submenu {
-    display: none;
     position: absolute;
-    left: 100%;
-    top: 0;
-    min-width: 200px;
+    display: none;
+    left: 290px;
+    top: -30px;
+    z-index: 1;
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
     padding: 30px;
-    z-index: 1000;
     white-space: nowrap;
-    /* line-height: 0.5; */
-   
 }
 
+.dropdown-submenu .dropdown-submenu.second {
+    top: -80px;
+}
+
+.dropdown-submenu .dropdown-submenu.third {
+    top: -135px;
+}
+
+/* Create a hover bridge to prevent losing hover state */
+.dropdown-submenu > a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 20px;
+    height: 100%;
+}
+
+/* Show submenu on hover */
 .dropdown-submenu:hover > .dropdown-submenu {
     display: block;
     list-style-type: circle;
-    /* line-height: 1; */
 }
 
 /* Arrow icon styling */
 .submenu-icon {
     font-size: 0.8rem;
     margin-left: 0.5rem;
+}
+
+/* Add delay to submenu hiding to improve UX */
+.dropdown-submenu > .dropdown-submenu {
+    transition: visibility 0.1s, opacity 0.1s;
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+}
+
+.dropdown-submenu:hover > .dropdown-submenu {
+    visibility: visible;
+    opacity: 1;
 }
