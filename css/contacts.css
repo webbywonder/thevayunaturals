@@ -2161,4 +2161,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     display: block;
 }
 }
+
+.page{
+    margin-top: 150px;
+}
 /*# sourceMappingURL=../sourcemaps/contacts.css.map */

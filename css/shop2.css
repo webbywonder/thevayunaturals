@@ -3244,4 +3244,37 @@ padding-block:10px ;
 }
 
 
+.page_main.container-fluid {
+    /* background-image: url('/img/essential-oil.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 0;
+    color: white;
+    z-index: -1;
+}
+
+/* Add an overlay to ensure text is readable */
+.page_main.container-fluid::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  
+}
+
+.page_main .container {
+    position: relative;
+   
+}
+
+.page_header, .page_text {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
 /*# sourceMappingURL=../sourcemaps/shop2.css.map */

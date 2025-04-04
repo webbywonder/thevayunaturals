@@ -3054,5 +3054,37 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 
+.page{
+    margin-top: 150px;
+}
+
+.page_main {
+    background-image: url('/img/pages/about-page.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+
+/* Optional: Add an overlay to ensure text readability */
+.page_main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+    
+}
+
+.page_main .container {
+    position: relative;
+    
+}
+
+.page_header, .page_text {
+    color: #fff; /* Make text white for better contrast against dark overlay */
+}
 
 /*# sourceMappingURL=../sourcemaps/about.css.map */
