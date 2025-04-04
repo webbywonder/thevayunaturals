@@ -525,7 +525,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 .header {
-    height: 60px;
+    height: 120px;
     z-index: 10000;
     will-change: transform;
     -webkit-transition: position .5s ease-in-out,background-color .3s ease-in-out,-webkit-transform .5s ease-in-out;
@@ -585,7 +585,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     font-size: 20px;
     color: #214842;
     position: absolute;
-    top: 60px;
+    top: 110px;
     left: 0;
     right: 0;
     background: #fff
@@ -612,7 +612,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 .header_nav .dropdown-toggle {
-    margin-bottom: 20px
+    /* margin-bottom: 20px */
 }
 
 .header_nav .dropdown-toggle .icon {
@@ -659,9 +659,6 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 .header_trigger {
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
     width: 30px;
     height: 28px;
     margin-right: 15px
@@ -678,6 +675,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 .header_trigger .line--short {
+    display: block;
     width: 75%
 }
 
@@ -790,7 +788,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     }
 
     .header.sticky {
-        height: 90px
+        height: 120px
     }
 
     .header_user-search {
@@ -3697,7 +3695,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
         display: none;
         /* width: %; */
         -o-object-fit: cover;
-        object-fit: cover
+        object-fit: cover;
     }
 
     /* Show logo image again on screens larger than 575.98px */

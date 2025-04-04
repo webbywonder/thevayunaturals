@@ -611,9 +611,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     color: #258f67
 }
 
-.header_nav .dropdown-toggle {
-    margin-bottom: 20px
-}
+
 
 .header_nav .dropdown-toggle .icon {
     font-size: 14px;

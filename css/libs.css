@@ -8063,3 +8063,18 @@
 .download_link{
     color: #198754;
 }
+.mobile-header{
+    width: 100%;
+}
+.header {
+    height: 120px !important;
+}
+.header_nav {
+    top: 120px !important;
+}
+@media screen and (min-width:1199.98px) {
+
+    .header.sticky {
+        height: 120px;
+    }
+}
