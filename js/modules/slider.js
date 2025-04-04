@@ -27,7 +27,10 @@ export function initSwiperSlider(container, options) {
                 enabled: true,
                 onlyInViewport: false,
             },
-            navigation: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
             ...options
         });
     }

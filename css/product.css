@@ -942,11 +942,12 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 
 .about_main-slider img {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about_main-slider img.portrait {
-    width: 30%;
+    width: 25%;
     height: auto;
     margin: 0 auto;
 }

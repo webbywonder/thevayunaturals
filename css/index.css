@@ -3713,13 +3713,13 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 }
 
 .category_section {
-    width: 150%;
-    height: auto;
+    height: 360px;
 }
 
 .product-image img{
     height: auto;
-    width: 100%;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .header_user .contact-info {
@@ -3765,3 +3765,90 @@ padding-block:10px ;
 .products_page_header{
     padding-top: 200px;}
 /*# sourceMappingURL=../sourcemaps/index.css.map */
+
+/* Enhanced navigation buttons for hero slider */
+.hero_slider .swiper-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+    padding: 0 15px;
+    pointer-events: none;
+}
+
+.hero_slider .swiper-button-prev,
+.hero_slider .swiper-button-next {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    pointer-events: auto;
+    position: absolute;
+}
+
+.hero_slider .swiper-button-prev {
+    left: 15px;
+}
+
+.hero_slider .swiper-button-next {
+    right: 15px;
+}
+
+.hero_slider .swiper-button-prev:hover,
+.hero_slider .swiper-button-next:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+}
+
+.hero_slider .swiper-button-prev .icon,
+.hero_slider .swiper-button-next .icon {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Featured products slider styles */
+.featured_products-slider {
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.featured_products-slider .swiper-slide {
+    height: auto;
+}
+
+.featured_products-slider .product-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.featured_products-slider .swiper-button-prev,
+.featured_products-slider .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.featured_products-slider .swiper-button-prev {
+    left: -5px;
+}
+
+.featured_products-slider .swiper-button-next {
+    right: -5px;
+}
+
+.featured_products-slider .swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+}

@@ -34,6 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
             el: '.hero-pagination',
             clickable: true
         },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
     })
 
     generateNumericPagination('.hero-pagination');
@@ -134,6 +138,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         });
+    });
+
+    // Initialize the featured products slider
+    const featuredProductsSlider = new Swiper('.featured_products-slider', {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+            el: '.featured_products-slider .swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.featured_products-slider .swiper-button-next',
+            prevEl: '.featured_products-slider .swiper-button-prev',
+        },
+        // Responsive breakpoints
+        breakpoints: {
+            // when window width is >= 576px
+            576: {
+                slidesPerView: 2,
+            },
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 3,
+            },
+            // when window width is >= 992px
+            992: {
+                slidesPerView: 4,
+            }
+        }
     });
 })
 
