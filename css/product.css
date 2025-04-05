@@ -188,9 +188,6 @@
     margin-top: 0
 }
 
-.about_main-info_buy .btn {
-    margin-left: 30px
-}
 
 .about_main-info_description {
     margin-bottom: 30px;
@@ -1351,9 +1348,6 @@
     margin-top: 0
 }
 
-.modal_popup--view .about_main-info_buy .btn {
-    margin-left: 30px
-}
 
 .modal_popup--view .about_main-info_description {
     margin-bottom: 30px;
@@ -2004,43 +1998,6 @@
 
 .logo-img {
     filter: brightness(0) invert(1);
-}
-
-
-
-.icon-call-color {
-    border-radius: 50%;
-    background: #258f67;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-padding-block:10px ;
-}
-.header_user .contact-info .icon {
-    background-color: rgba(var(--accent-rgb), 0.1);
-    color: var(--accent);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.header_user .contact-info .small {
-    font-size: 12px;
-    line-height: 1;
-
-}
-
-.header_user .contact-info .link {
-    font-weight: 600;
-    line-height: 1.2;
-    font-size: 12px;
-    white-space: nowrap; /* Add this line to prevent line breaks */
-}
-
-.header_user .contact-info {
-    margin-right: 15px;
 }
 
 /*# sourceMappingURL=../sourcemaps/product.css.map */

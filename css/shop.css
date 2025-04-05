@@ -1,5 +1,3 @@
-
-
 .page_main {
     padding: 60px 0;
     background: url(../img/placeholder.jpg) center/cover no-repeat;
@@ -149,6 +147,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease;
+    padding: 0;
 }
 
 .products_list-item_wrapper .media {
@@ -157,7 +157,7 @@
 
 .products_list-item_wrapper .main {
     flex: 1 0 auto;
-    padding: 20px 15px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -179,18 +179,23 @@
 .products_list-item_wrapper .media img {
     width: 100%;
     height: 270px; /* Fixed height for all product images */
-    object-fit: cover;
+    object-fit: contain;
+    transition: all 0.3s ease;
 }
 
 .products_list-item_wrapper .media img.portrait {
     width: 30%;
     height: auto;
     margin: 0 auto;
+    transition: all 0.3s ease;
 }
 
 .products_list-item_wrapper:hover {
+    padding: 0 25px;
+    border-radius: 10px;
     -webkit-box-shadow: 0 0 20px rgba(37,143,103,.15);
-    box-shadow: 0 0 20px rgba(37,143,103,.15)
+    box-shadow: 0 0 20px rgba(37,143,103,.15);
+    transition: all 0.3s ease;
 }
 
 .products_list-item_wrapper .media .label {
@@ -241,7 +246,7 @@
 }
 
 .products_list-item_wrapper .main {
-    padding: 0 30px 30px;
+    /* padding: 0 30px 30px; */
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -946,7 +951,8 @@
 @media screen and (min-width:991.98px) {
     .shop-wrapper .container.d-lg-grid {
         grid-template-columns: 1fr 362px;
-        justify-items: end
+        justify-items: end;
+        transition: all 0.3s ease;
     }
 
     .shop_aside-wrapper {
@@ -1739,10 +1745,6 @@
     margin-top: 0
 }
 
-.modal_popup--view .about_main-info_buy .btn {
-    margin-left: 30px
-}
-
 .modal_popup--view .about_main-info_description {
     margin-bottom: 30px;
     color: #214842
@@ -2195,6 +2197,10 @@
     background: #9ebca6
 }
 
+.cartOffcanvas_body-list_item .main .btn--underline:hover {
+    background: #9ebca6
+}
+
 .cartOffcanvas_body-total {
     font-family: NunitoSans,sans-serif;
     font-weight: 800;
@@ -2335,73 +2341,5 @@
     filter: brightness(0) invert(1);
 }
 
-.icon-call-color {
-    border-radius: 50%;
-    background: #258f67;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-padding-block:10px ;
-}
-.header_user .contact-info .icon {
-    background-color: rgba(var(--accent-rgb), 0.1);
-    color: var(--accent);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-.header_user .contact-info .small {
-    font-size: 12px;
-    line-height: 1;
-
-}
-
-.header_user .contact-info .link {
-    font-weight: 600;
-    line-height: 1.2;
-    font-size: 12px;
-    white-space: nowrap; /* Add this line to prevent line breaks */
-}
-
-.header_user .contact-info {
-    margin-right: 15px;
-}
-
-
-.page_main.container-fluid {
-    /* background-image: url('/img/essential-oil.jpg'); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    padding: 80px 0;
-    color: white;
-    z-index: -1;
-}
-
-/* Add an overlay to ensure text is readable */
-.page_main.container-fluid::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
-
-}
-
-.page_main .container {
-    position: relative;
-
-}
-
-.page_header, .page_text {
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
-}
 
 /*# sourceMappingURL=../sourcemaps/shop2.css.map */
