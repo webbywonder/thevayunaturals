@@ -329,13 +329,6 @@
         <!-- Products section start -->
         <div class="shop-wrapper section">
             <div class="container d-flex flex-column">
-                <div class="promo_banner promo_banner--big">
-                    <h3 class="promo_banner-header">Browse our selection of Essential Oils</h3>
-                    <p class="promo_banner-text">
-                        Our premium range of essential oils includes high-quality products for aromatherapy, skincare, and wellness applications. All oils are 100% pure, natural, and sustainably sourced to ensure the highest quality and efficacy.
-                    </p>
-                    <a class="promo_banner-btn btn" href="#products">Shop Now</a>
-                </div>
                 <div class="shop_products container my-4">
                     <ul class="shop_products-list d-sm-flex flex-wrap row gx-4 gy-4">
                         <!-- Product card - Indian Basil Oil -->
@@ -535,7 +528,15 @@
                     <h4 class="footer_main-nav_header footer_main-header">Shop Products</h4>
                     <ul class="footer_main-nav_list d-flex flex-wrap flex-md-column">
                         <li class="list-item">
-                            <a class="link d-inline-flex align-items-center" href="/category/natural-mentha-oil-and-derivatives/">
+                            <a class="link d-inline-flex align-items-center"
+                                href="/category/standardised-botanical-extract/">
+                                <i class="icon-caret_right accent icon"></i>
+                                Standardised Botanical Extract
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="link d-inline-flex align-items-center"
+                                href="/category/natural-mentha-oil-and-derivatives/">
                                 <i class="icon-caret_right accent icon"></i>
                                 Natural Mentha Oil and Derivatives
                             </a>
@@ -553,18 +554,12 @@
                             </a>
                         </li>
                         <li class="list-item">
-                            <a class="link d-inline-flex align-items-center" href="/category/organic-certified-products/">
+                            <a class="link d-inline-flex align-items-center"
+                                href="/category/organic-certified-products/">
                                 <i class="icon-caret_right accent icon"></i>
                                 Organic Certified Products
                             </a>
                         </li>
-                        <li class="list-item">
-                            <a class="link d-inline-flex align-items-center" href="/category/standardised-botanical-extract/">
-                                <i class="icon-caret_right accent icon"></i>
-                                Standardised Botanical Extract
-                            </a>
-                        </li>
-
                     </ul>
                 </div>
 
@@ -580,85 +575,7 @@
             </div>
     </footer>
 
-    <!-- Cart offcanvas start -->
-    <div class="cartOffcanvas offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas">
-        <div class="cartOffcanvas_header d-flex align-items-center justify-content-between">
-            <h2 class="cartOffcanvas_header-title" id="cartOffcanvasLabel">Cart</h2>
-            <button class="cartOffcanvas_header-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                <i class="icon-close"></i>
-            </button>
-        </div>
-        <div class="cartOffcanvas_body">
-            <ul class="cartOffcanvas_body-list">
-                <li class="cartOffcanvas_body-list_item d-sm-flex align-items-center">
-                    <div class="media">
-                        <a href="product.html" target="_blank" rel="noopener norefferer">
-                            <picture>
-                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg"
-                                    type="image/webp" />
-                                <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg"
-                                    alt="media" />
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="main d-flex flex-wrap justify-content-between align-items-end align-items-lg-center">
-                        <a class="main_title" href="product.html" target="_blank" rel="noopener norefferer">
-                            <span class="main_title-product">Peppermint Oil</span>
-                        </a>
-                        <div class="main_price">
-                            <span class="price">$14.45</span>
-                        </div>
-                        <div class="qty d-flex align-items-center justify-content-between">
-                            <span class="qty_minus control disabled d-flex align-items-center">
-                                <i class="icon-minus"></i>
-                            </span>
-                            <input class="qty_amount" type="number" readonly value="1" min="1" max="99" />
-                            <span class="qty_plus control d-flex align-items-center">
-                                <i class="icon-plus"></i>
-                            </span>
-                        </div>
-                        <a class="btn--underline" href="#">Remove</a>
-                    </div>
-                </li>
-                <li class="cartOffcanvas_body-list_item d-sm-flex align-items-center">
-                    <div class="media">
-                        <a href="product.html" target="_blank" rel="noopener norefferer">
-                            <picture>
-                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg"
-                                    type="image/webp" />
-                                <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg"
-                                    alt="media" />
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="main d-flex flex-wrap justify-content-between align-items-end align-items-lg-center">
-                        <a class="main_title" href="product.html" target="_blank" rel="noopener norefferer">
-                            <span class="main_title-product"> Natures: CBD Tincture </span>
-                        </a>
-                        <div class="main_price">
-                            <span class="price">$7.49</span>
-                        </div>
-                        <div class="qty d-flex align-items-center justify-content-between">
-                            <span class="qty_minus control disabled d-flex align-items-center">
-                                <i class="icon-minus"></i>
-                            </span>
-                            <input class="qty_amount" type="number" readonly value="1" min="1" max="99" />
-                            <span class="qty_plus control d-flex align-items-center">
-                                <i class="icon-plus"></i>
-                            </span>
-                        </div>
-                        <a class="btn--underline" href="#">Remove</a>
-                    </div>
-                </li>
-            </ul>
-            <div class="cartOffcanvas_body-total d-flex justify-content-between align-items-center">
-                <span>Total</span>
-                <span class="cartTotal">$29.43</span>
-            </div>
-            <a class="cartOffcanvas_body-btn btn" href="cart.html">Proceed to checkout</a>
-        </div>
-    </div>
-    <!-- Cart offcanvas end -->
+
     <script src="/js/shop.min.js"></script>
     <script src="/js/common.min.js"></script>
 </body>

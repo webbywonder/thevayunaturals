@@ -499,7 +499,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   .section--nopb {
-    padding: 160px 0 0;
+    padding: 90px 0 0;
   }
 
   .swiper-pagination--dots {
@@ -887,4 +887,80 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
     opacity: 1;
     visibility: visible;
   }
+}
+
+.categories_list {
+  margin: 0 -15px
+}
+
+.categories_list-item {
+  padding: 0 15px;
+  margin-bottom: 30px;
+  text-align: center
+}
+
+.categories_list-item[data-order="5"],.categories_list-item[data-order="6"] {
+  margin-bottom: 0
+}
+
+.categories_list-item_wrapper .media {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  overflow: hidden
+}
+
+.categories_list-item_wrapper .media::before {
+  float: left;
+  padding-top: 100%;
+  content: ''
+}
+
+.categories_list-item_wrapper .media::after {
+  display: block;
+  content: '';
+  clear: both
+}
+
+.categories_list-item_wrapper .media .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(33,72,66,.6);
+  color: #fff;
+  font-family: NunitoSans,sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  -webkit-transition: opacity .3s ease-in-out,visibility .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out,visibility .3s ease-in-out;
+  transition: opacity .3s ease-in-out,visibility .3s ease-in-out;
+  opacity: 0;
+  visibility: hidden
+}
+
+.categories_list-item_wrapper:hover .overlay {
+  opacity: 1;
+  visibility: visible
+}
+
+@media screen and (min-width:991.98px) {
+  .categories_list {
+      margin: 0 -20px
+  }
+
+  .categories_list-item {
+      margin-bottom: 40px;
+      padding: 0 20px
+  }
+}
+
+@media screen and (min-width:1199.98px) {
+  .categories_list-item {
+      margin-bottom: 0
+  }
+}
+.category_section {
+  height: 360px;
 }
