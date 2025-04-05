@@ -8078,3 +8078,40 @@
         height: 120px;
     }
 }
+
+/* Mobile-specific dropdown styles */
+@media screen and (max-width: 1199.98px) {
+    .dropdown-submenu .dropdown-submenu {
+        position: static;
+        display: none;
+        left: auto;
+        top: auto;
+        box-shadow: none;
+        padding: 10px 0 10px 20px;
+        margin-top: 5px;
+        background-color: transparent;
+    }
+    
+    .dropdown-submenu > a:after {
+        display: none;
+    }
+    
+    /* Override hover behavior on mobile */
+    .dropdown-submenu:hover > .dropdown-submenu {
+        display: none;
+    }
+    
+    /* Show only when active class is applied via JS */
+    .dropdown-submenu > .dropdown-submenu.active {
+        display: block;
+    }
+    
+    /* Adjust submenu icon for mobile */
+    .submenu-icon {
+        transition: transform 0.3s;
+    }
+    
+    .dropdown-submenu > a.active .submenu-icon {
+        transform: rotate(90deg);
+    }
+}
