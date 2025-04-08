@@ -52,7 +52,7 @@
 
 .hero_header-text {
   margin: 15px 0 30px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .hero_contacts-text {
@@ -287,11 +287,11 @@
 
   .hero_header-title {
     max-width: 500px;
-    font-size: 60px;
+    font-size: 37px;
   }
 
   .hero_header-text {
-    max-width: 408px;
+    max-width: 428px;
   }
 
   .hero-pagination {

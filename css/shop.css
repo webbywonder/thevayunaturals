@@ -165,7 +165,7 @@
 .products_list-item_wrapper .main_title {
     margin-bottom: 15px;
     min-height: 50px; /* Ensures consistent height for titles */
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     text-align: center;
