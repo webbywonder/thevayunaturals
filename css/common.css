@@ -512,7 +512,7 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.2;
   }
 
@@ -911,39 +911,12 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
   overflow: hidden;
 }
 
-.categories_list-item_wrapper .media::before {
-  float: left;
-  padding-top: 100%;
-  content: "";
+.categories_list-item_wrapper .media img {
+  transition: transform 0.3s ease-in-out;
 }
 
-.categories_list-item_wrapper .media::after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
-.categories_list-item_wrapper .media .overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(33, 72, 66, 0.6);
-  color: #fff;
-  font-family: NunitoSans, sans-serif;
-  font-weight: 700;
-  padding: 20px;
-  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.categories_list-item_wrapper:hover .overlay {
-  opacity: 1;
-  visibility: visible;
+.categories_list-item_wrapper:hover .media img {
+  transform: scale(1.05);
 }
 
 @media screen and (min-width: 991.98px) {

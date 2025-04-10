@@ -288,6 +288,7 @@
   .hero_header-title {
     max-width: 500px;
     font-size: 37px;
+    font-family: Merriweather, sans-serif;
   }
 
   .hero_header-text {
@@ -2870,6 +2871,17 @@
 .featured_products-slider .product-card .btn {
   width: max-content;
   margin: 0 auto;
+}
+
+.featured_products-slider .product-card .product-image img {
+  width: 100%;
+  height: auto;
+  transition: width 0.3s ease-in-out;
+}
+.featured_products-slider .product-card:hover .product-image img {
+  width: 95%;
+  transition: width 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .featured_products-slider .swiper-button-prev,
