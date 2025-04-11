@@ -289,6 +289,7 @@
     max-width: 500px;
     font-size: 37px;
     font-family: Merriweather, sans-serif;
+    font-weight: 900;
   }
 
   .hero_header-text {
@@ -1754,7 +1755,8 @@
   }
 
   .footer_main-about_wrapper .text {
-    max-width: 260px;
+    max-width: 400px;
+    font-weight: 500;
   }
 
   .footer_main-nav_list .list-item {

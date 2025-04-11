@@ -18,8 +18,9 @@
     font-display: block
 }
 
-[class*=" icon-"],[class^=icon-] {
-    font-family: icomoon!important;
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: icomoon !important;
     speak: never;
     font-style: normal;
     font-weight: 400;
@@ -169,4 +170,9 @@
 .icon-location:before {
     content: "\e925"
 }
+
+.icon-linkedin:before {
+    content: "\eac9";
+}
+
 /*# sourceMappingURL=../sourcemaps/icomoon.css.map */

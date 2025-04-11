@@ -1181,3 +1181,24 @@ p {
     font-size: 30px;
   }
 }
+@media screen and (min-width: 767.98px) {
+
+
+  .footer_main-about_wrapper .text {
+    max-width: 400px !important;
+    font-weight: 500 !important;
+    margin-bottom: 30px !important;
+  }
+}
+.linkedin svg{
+  transition: all 0.3s ease-in-out;
+}
+
+.linkedin path{
+  fill: #efc368 !important;
+}
+
+.linkedin:hover  svg{
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
